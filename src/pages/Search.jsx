@@ -105,7 +105,8 @@ const Search = () => {
 								onClick={() => {
 									setDetails(item);
 									history.push("/details");
-								}}
+                                }}
+                                className="returnValue"
 							>
 								<BannerContainer
 									image={item.images.original.url || ""}
